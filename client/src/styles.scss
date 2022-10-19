@@ -3,8 +3,18 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  height: 100%;
+}
+
 body {
-  background-image: url('assets/images/background.svg');
+  background: rgb(2,0,36);
+  background: -moz-linear-gradient(140deg, rgba(2,0,36,1) 0%, rgba(67,9,121,1) 35%, rgba(255,171,0,1) 100%);
+  background: -webkit-linear-gradient(140deg, rgba(2,0,36,1) 0%, rgba(67,9,121,1) 35%, rgba(255,171,0,1) 100%);
+  background: linear-gradient(140deg, rgba(2,0,36,1) 0%, rgba(67,9,121,1) 35%, rgba(255,171,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#ffab00",GradientType=1);
+  height: 100%;
+  margin: 0;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-attachment: fixed;
 }
